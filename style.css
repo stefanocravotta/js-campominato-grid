@@ -1,0 +1,14 @@
+header{
+    height: 60px;
+    background-color: #197dc0;
+}
+
+main{
+    height: calc(100vh - 130px);
+    background-color: #4094cc;
+}
+
+footer{
+    height: 70px;
+    background-color: #197dc0;
+}
