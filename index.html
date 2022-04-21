@@ -13,10 +13,14 @@
     <header>
         <nav class="navbar navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand">Navbar</a>
+              <a class="navbar-brand">Boolean</a>
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <select class="form-select me-2"  id="choice" aria-label="Default select example">
+                    <option selected value="normal">Normal</option>
+                    <option value="hard">HardMode</option>
+                    <option value="legendary">LegendaryMode</option>
+                  </select>
+                <button class="btn btn-dark me-2" type="button">Gioca</button>
               </form>
             </div>
           </nav>
@@ -24,10 +28,6 @@
     <main>
         <div class="main-wrapper">
             <div class="sc-container">
-                <!-- <div class="square sc-100">
-                    <span>X</span>
-                </div> -->
-                
             </div>
         </div>
     </main>
